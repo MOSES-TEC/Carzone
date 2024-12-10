@@ -107,10 +107,10 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'carzone_db',
-        'USER': 'postgres',
-        'PASSWORD': 'moses#07meena',
-        'HOST': 'localhost',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
     }
 }
 
@@ -175,8 +175,8 @@ MESSAGE_TAGS = {
 SITE_ID = 1
 
 # Email sending
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST = ''
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'moses07projects@gmail.com' # Enter your GMAIL address
-EMAIL_HOST_PASSWORD = 'kcgbfjqssbemcwys' # Enter your app password
+EMAIL_HOST_USER = '' # Enter your GMAIL address
+EMAIL_HOST_PASSWORD = '' # Enter your app password
 EMAIL_USE_TLS = True 
